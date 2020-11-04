@@ -1,3 +1,0 @@
-- op: move
-  from: /metadata/annotations/argocd.argoproj.io/hook
-  path: /metadata/annotations/argocd.argoproj.io/hooks

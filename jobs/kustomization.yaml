@@ -9,10 +9,10 @@ patchesJson6902:
     version: v1
     kind: Job
     name: fugafuga
-  path: patches/generate-name.yaml
+  path: patches/genname.yaml
 - target:
     group: batch
     version: v1
     kind: Job
     name: hogehoge
-  path: patches/generate-name.yaml
+  path: patches/genname.yaml
