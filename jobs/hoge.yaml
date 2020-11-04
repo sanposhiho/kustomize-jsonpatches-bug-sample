@@ -1,0 +1,15 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: hogehoge
+  annotations:
+    argocd.argoproj.io/hook: SyncFail
+spec:
+  template:
+    metadata:
+      annotations:
+        appmesh.k8s.aws/sidecarInjectorWebhook: disabled
+    spec:
+      containers:
+      - name: hogehoge
+        image: hoge:latest
